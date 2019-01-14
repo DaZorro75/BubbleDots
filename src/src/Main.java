@@ -62,7 +62,7 @@ public class Main {
 		}
 
 		int[] i = controller.getColorAt(x, y);
-		if (i[0] == Colors.backGround.r && i[1] == Colors.backGround.g && i[2] == Colors.backGround.b) {
+		if (i[0] == Colors.black.r && i[1] == Colors.black.g && i[2] == Colors.black.b) {
 			return 0;
 		}
 		else if (i[0] == Colors.wallColor.r && i[1] == Colors.wallColor.g && i[2] == Colors.wallColor.b) {

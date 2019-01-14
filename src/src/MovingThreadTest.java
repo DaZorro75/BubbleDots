@@ -43,7 +43,7 @@ public class MovingThreadTest extends Thread{
 			
 			int [] pos = projectile.getPosition();
 			if (pos[1] >= 0) {
-				if (getCollision(pos[0], pos[1])) {
+				if (getCollision(pos[0], pos[1]) == true) {
 
 					controller.setColor(pos[0], pos[1], 0, 0, 0);
 					pos[1] = 11;
